@@ -1,41 +1,13 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
-
-# Handle line endings automatically for files detected as text
-# and leave all files detected as binary untouched.
 * text=auto
 
-# git config
-.gitattributes	text
-.gitignore		text
+.gitattributes text
+.gitignore text
 
+*.ks diff
+*.tjs diff
+*.ttd diff
 
-# Various
-
-*.ks text
-*.tjs text
-*.ttd text
-
-#
-## These files are binary and should be left untouched
-#
-
-
-# These files are binary and should be left untouched
-# (binary is a macro for -text -diff)
 *.png			binary
 *.jpg			binary
 *.jpeg			binary
-*.gif			binary
-*.ico			binary
-*.swf			binary
-*.gz			binary
-*.zip			binary
-*.7z			binary
-*.ttf			binary
-*.svg			binary
-*.woff			binary
-*.eot			binary
-*.rar			binary
-*.dll			binary
 *.tlg			binary
-*.lib
