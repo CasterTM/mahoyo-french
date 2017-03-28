@@ -3,9 +3,9 @@
 .gitattributes text
 .gitignore text
 
-*.ks text
-*.tjs text
-*.ttd text
+*.ks diff
+*.tjs diff
+*.ttd diff
 
 *.png			binary
 *.jpg			binary
